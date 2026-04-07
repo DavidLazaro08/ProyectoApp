@@ -1,25 +1,32 @@
-# LoginLayout
+# ProyectoApp
 
-Proyecto en Android Studio para la creación de una pantalla de inicio de sesión (login) utilizando layouts en XML.
+Aplicación Android desarrollada en Android Studio como práctica de creación de interfaces y navegación entre actividades.
 
 ## Descripción
 
-En esta práctica se ha desarrollado una interfaz sencilla que simula una pantalla de login. El objetivo principal ha sido aprender a trabajar con layouts en Android y organizar los elementos visuales.
+En este proyecto se ha desarrollado una aplicación sencilla que simula el acceso a un ecommerce.
 
-La pantalla incluye:
+La app cuenta con:
 
-- Logo en la parte superior
-- Campo de texto para el usuario (Login)
-- Campo de texto para la contraseña (Password)
-- Botón de "Inicio de sesión"
+- Pantalla de login (interfaz en XML)
+- Navegación hacia una segunda pantalla (ecommerce)
+- Diseño visual inspirado en estilo retro (tonos oscuros y morados)
 
-## Estructura
+## Funcionalidades
 
-El proyecto está compuesto principalmente por:
+- Introducción de usuario y contraseña (simulado)
+- Botón de inicio de sesión
+- Navegación entre dos Activities:
+  - Login → Ecommerce
+  - Ecommerce → Login
 
-- `activity_main.xml`: define el diseño de la pantalla
-- `strings.xml`: contiene los textos utilizados en la interfaz
-- `MainActivity.kt`: actividad principal de la aplicación
+## Estructura del proyecto
+
+- `MainActivity.kt` → pantalla de login
+- `activity_main.xml` → diseño del login
+- `EcommerceActivity.kt` → segunda pantalla
+- `activity_ecommerce.xml` → interfaz del ecommerce
+- `strings.xml` → textos de la aplicación
 
 ## Tecnologías utilizadas
 
@@ -27,10 +34,19 @@ El proyecto está compuesto principalmente por:
 - Kotlin
 - XML (Layouts)
 
+## Recursos incluidos
+
+- Carpeta `/apk` → contiene el archivo APK generado
+- Carpeta `/video` → contiene un vídeo corto mostrando la navegación de la app
+
 ## Objetivo
 
-Familiarizarnos con la creación de interfaces en Android mediante XML y entender la separación entre diseño (layout) y lógica de la aplicación.
+Aprender a:
+
+- Crear interfaces en Android con XML
+- Gestionar múltiples Activities
+- Implementar navegación entre pantallas
 
 ## Estado
 
-Interfaz creada. No se ha implementado todavía la funcionalidad del login.
+Aplicación funcional con navegación entre pantallas implementada.
