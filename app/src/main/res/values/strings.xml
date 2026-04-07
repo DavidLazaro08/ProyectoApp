@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">loginlayout</string>
+    <string name="app_name">Retro Store</string>
     <string name="login">Login</string>
     <string name="password">PassWord</string>
     <string name="inicio_sesion">Inicio de sesión</string>
